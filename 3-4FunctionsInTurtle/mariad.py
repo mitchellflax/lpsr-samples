@@ -1,7 +1,7 @@
 import turtle
 
 marmar = turtle.Turtle()
-
+"""
 color = 0
 marmar.speed(450)
 while color < 450:
@@ -32,7 +32,7 @@ turtle.exitonclick()
 import turtle
 
 marmar = turtle.Turtle()
-
+"""
 color = 0
 marmar.speed(150)
 while color < 200:
