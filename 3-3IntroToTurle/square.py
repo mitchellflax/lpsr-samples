@@ -3,13 +3,13 @@
 import turtle
 
 # make our turtle
-buzz = turtle.Turtle()
+rocky = turtle.Turtle()
 
-# buzz makes a square
+# rocky makes a square
 lines = 0
 while lines < 4:
-	buzz.forward(150)
-	buzz.left(90)
+	rocky.forward(150)
+	rocky.left(90)
 	lines = lines + 1
 
 # wait to exit until I've clicked
