@@ -33,7 +33,20 @@ z = Quote("It doesn't matter.", "michelle", "Starbucks San Pablo", 0)
 # print our quotes
 z.show_quote()
 
+# put Quotes in a list
+my_quotes = []
+my_quotes.append(x)
+my_quotes.append(y)
+my_quotes.append(z)
+user_quote = "Hello. How are you?"
+speaker = "Adele"
+location = "London"
 
+my_quotes.append(Quote(user_quote, speaker, location, 0))
+
+# call our show_quote function for all of our Quote objects
+for q in my_quotes:
+	q.show_quote()
 
 
 
