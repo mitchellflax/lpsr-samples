@@ -1,6 +1,7 @@
 # primeFreqCounter.py
 # A program to count the frequency of prime tens places
-# ... in the next prime after one ending in 1
+# ... in the next prime after one ending in each of the
+# possibilities for prime tens places (1, 3, 7, 9)
 # Author: mflax@leadps.org
 
 # takes a number and the list of primes between 2 and the number
@@ -52,7 +53,7 @@ for n in range(2, limit):
 		primeList.append(n)
 
 # write the list to a file
-
+# not necessary, but why not?
 myFile = open('primes.txt', 'w')
 for p in primeList:
 	myFile.write(str(p) + '\n')
