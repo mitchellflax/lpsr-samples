@@ -18,3 +18,31 @@ def createDictionary(key):
 def getMessage():
 	pass
 
+# for each letter in message, decodes and records
+# arguments: encoded message, dictionary
+# returns: decoded message
+def decodeMessage(message, dictionary):
+	pass
+
+# outputs the decoded message to the terminal
+# arguments: decoded message
+# returns: none
+def printMessage(message):
+	pass
+
+
+# execution starts here
+
+# ask user for key
+print("What key would you like to use to decode?")
+key = int(raw_input())
+
+dictionary = createDictionary(key)
+encodedMessage = getMessage()
+decodedMessage = decodeMessage(encodedMessage, dictionary)
+
+printMessage(decodedMessage)
+
+
+
+
