@@ -2,7 +2,7 @@ revisionsCount = {
 		'Jose': 5,
 		'Jill': 3,
 		'Darren': 2,
-		'Paola': 4
+		1: 'whatever!'
 		}
 print(revisionsCount)
 print(revisionsCount['Jill'])

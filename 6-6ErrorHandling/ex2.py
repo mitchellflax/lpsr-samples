@@ -4,7 +4,7 @@ myList = [1, 2, 3, 5, 8, 13, 21]
 
 try:
 
-	print(myList[3])
+	print(myList[9])
 
 except:
 
